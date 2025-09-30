@@ -1,29 +1,46 @@
 #include <iostream>
-#include <set>
-#include <vector>
+#include <map>
 
 using namespace std;
 
-int query(vector<int> &a)
-{
-
-
-    return 0;
-}
-
 int main()
 {
-    int q;
+    // Aumentar a velocidade de entrada e saída
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    cin >> q;
+    int Q;
+    cin >> Q;
 
-    for (int i = 0; i < q; ++i)
+    map<long long, long long> infinite_array;
+
+    for (int i = 0; i < Q; ++i)
     {
-        vector<int> a;
-        int value;
-        cin >> value;
-        a.push_back(value);
-        cout << query(a) << "\n";
+        int type;
+        cin >> type;
+
+        if (type == 0)
+        {
+            long long k, v;
+            cin >> k >> v;
+            infinite_array[k] = v;
+        }
+        else if (type == 1)
+        {
+            long long k;
+            cin >> k;
+
+            auto it = infinite_array.find(k);
+
+            if (it != infinite_array.end())
+            {
+                cout << it->second << "\n";
+            }
+            else
+            {
+                cout << 0 << "\n";
+            }
+        }
     }
 
     return 0;
