@@ -1,0 +1,1 @@
+{"name":"Local: B_Road_Construction","url":"/home/vituriano/dev/personal/leetcode/B_Road_Construction.cpp","tests":[{"id":1760140249037,"input":"5 3\n1 2\n1 3\n4 5","output":"4 2\n3 3\n2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vituriano/dev/personal/leetcode/B_Road_Construction.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: A_-_Counting_Rooms","url":"/home/vituriano/dev/personal/leetcode/A_-_Counting_Rooms.cpp","tests":[{"id":1761847479562,"input":"5 8\n########\n#..#...#\n####.#.#\n#..#...#\n########","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vituriano/dev/personal/leetcode/A_-_Counting_Rooms.cpp","group":"local","local":true}
